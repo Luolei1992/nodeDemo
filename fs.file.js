@@ -9,7 +9,7 @@ var fs = require('fs');
 //         console.log(data);
 //     }
 // });
-fs.readFile('11.jpg', 'utf-8', function (err, data) {   //异步读取
+fs.readFile('test.jpg', 'utf-8', function (err, data) {   //异步读取
     if (err) {
         console.log(err);
     } else {
